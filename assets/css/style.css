@@ -1,60 +1,71 @@
-/* * { */
+* {
   outline: dotted red 1px;
-
-body {
-  background-color: azure;
 }
+body {
+  background-color:azure;
+  margin: 0;
+  padding: 0;
+}
+h1, h2
+ {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 header {
+  padding: 15px 6% 15px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  background-color: darkslategrey;
-  color: darkcyan;
+  background-size: cover;
+  background-color: rgb(28, 51, 51);
+  background-position: 2%;
   font-size: xx-large;
 }
 header h1 {
   display: flex;
-  background-color: darkslategrey;
-  text-decoration: overline underline darkcyan;
-  color: azure;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-header h2 {
-    display: flex;
   background-color: azure;
-  text-decoration: darkcyan;
-  color: azure;
+  padding: 5px 1% 5px 6%;
+margin: 5px;
+  font-weight: bold;
+  line-height: 1;
+  flex-wrap: wrap;
+  text-decoration: underline rgb(28, 51, 51);
+  color:rgb(28, 51, 51);
+  font-size: 300%;
 
 
 }
-.bottom-right {
-    position: absolute;
-    bottom: 18px;
-    right: 16px;
-    color: white;
-  }
 
-.two {
+nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   letter-spacing: 3px;
   justify-content: space-around;
-  background-color: darkslategrey;
-  color: white;
+  background-color: rgb(28, 51, 51);
+  color:azure;
   font-size: xx-large;
 }
-.two a {
+nav a {
   display: flex;
   margin-left: 30px;
   flex-direction: row;
   letter-spacing: 3px;
   justify-content: space-around;
-  background-color: darkslategrey;
-  color: white;
+  background-color: rgb(28, 51, 51);
+  color:azure;
   font-size: xx-large;
 }
-.two :hover {
+
+.two a:hover {
   cursor: pointer;
+  background-size: 100% 100%;
   color: crimson;
 }
 .two a:active {
@@ -62,135 +73,216 @@ header h2 {
 }
 
 .hero {
-  height: 200px;
+  min-height: 30vh;
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-  justify-content: end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
   font-size: x-large;
-  background-image: url("C:/Users/andre/assignment-2/images/sky-pic.jpg");
+  background-size: cover;
+  background-image: url("C:/Users/andre/assignment-2/images/screen2.jpg");
   background-position: 2%;
-  margin: 25px 0 0 0;
-  width: 25px 0 0 0;
-  color: white;
+  color:azure;
 }
 .hero h2 {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-end;
-  color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-decoration: underline overline darkcyan;
-  background-color: darkslategray;
-  margin-top: 8%;
-  margin-bottom: 0.5%;
+  color:azure;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 180%;
+  text-decoration: underline overline rgb(92, 253, 253);
+  background-color: rgb(28, 51, 51);
+  margin-top: 0;
+  padding: 5px;
+  line-height: 1.2;
 }
 
 .cc {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   font-size: x-large;
-  margin: 35px 0;
+  margin: 35px 0 rgb(28, 51, 51);
   width: 30px 0;
-  background-color: white;
-  color: darkslategray;
+  background-color:rgb(28, 51, 51);
+  color: rgb(28, 51, 51);
 }
+
 .cc h2 {
+  font-size: 350%;
+  text-decoration: underline rgb(28, 51, 51);
+  background-color:azure;
+  padding: 5px 1% 5px 6%;
+  margin: 5px;
+}
+.cc2 .div {
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  margin: 5%;
-  background-color: white;
-  font-size: 350%;
-  color: darkslategray;
+  width: 100%;
+  height: 100%;
+}
+
+#work h2 {
+  display: flex;
+  text-decoration: underline;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-right:azure;
 }
 .cc p {
   display: flex;
   flex-direction: row;
-  align-items:center;
-  margin-top: 60px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 60px,;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 8px;
+  background-color: azure;
+  margin:azure;
+}
+div p {
+  background-color: azure;
+
+
 }
 
 .cc2 {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  margin: 30px 0;
-  margin-top: 25px darkcyan;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin:0.5em;
+ padding: 0 0 20px 0;
   width: 30px 0;
-  background-color: darkslategrey;
-  color: white;
+  background-color: rgb(28, 51, 51);
+  color:azure;
   font-size: 250%;
 }
+.cc2 > div {
+  flex: 0 0 77%;
+}
+.gfgx{
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+.gfgx:first-child {
+
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.bottom-right {
+  position: absolute;
+  border-style: round;
+  flex-wrap: wrap;
+  bottom: 18px;
+  right: 16px;
+  color:azure;
+}
+
 .cc2 h2 {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 2%;
   margin-right: 2%;
-  background-color: darkslategray;
+  background-color: rgb(28, 51, 51);
   font-size: 250%;
+  color:azure;
 }
 
-.gfg {
+
+.gfg2 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  background-color: darkslategrey;
-  color: darkcyan;
-}
-.gfg2 {
-  display: inline;
-  flex-direction: row;
   background-image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80";
-  width: 400px;
-  height: 400px;
-  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
   position: relative;
   justify-content: center;
   background-color: darkslategrey;
-  color: darkcyan;
+  color: red;
 }
-.gfg3 {
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-    margin-top: 50px;
-    position: relative;
+.gfg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
 
-    background-color: darkslategrey;
-    color: darkcyan;
-  }
-.gfg4 {
-    display:flex;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
+  position: relative;
+  background-color: darkslategrey;
+}
 
-    position: relative;
+.gfgx {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 80px;
 
-    background-color: darkslategrey;
-    color: darkcyan;
-  }
+  position: relative;
 
+  background-color: darkslategrey;
+}
+.gfg2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 250px;
 
-.gfg4 :hover {
-    position: relative;
-    cursor: pointer;
-    opacity: 85%;
-  }
-.gfg4 :active {
-    cursor: grabbing;
-  }
+  position: relative;
+
+  background-color: darkslategrey;
+}
+
+.gfg :active {
+  cursor: grabbing;
+}
+
+.gfg2 :hover {
+  position: relative;
+  cursor: pointer;
+  opacity: 85%;
+}
+.gfg2 :active {
+  cursor: grabbing;
+}
 .bottom-right2 {
-    position: absolute;
-    bottom: 18px;
-    right: 16px;
-    color: darkslategray;
-  }
-  
+  position: absolute;
+  cursor: pointer;
+  background-color: rgb(28, 51, 51);
+  flex-wrap: wrap;
+  opacity: 85%;
+  bottom: 18px;
+  right: 16px;
+  text-decoration: underline;
+}
+.bottom-right2 :active {
+  cursor: grabbing;
+}
+
 
 .gfg :hover {
   position: relative;
@@ -200,19 +292,6 @@ header h2 {
 .gfg :active {
   cursor: grabbing;
 }
-
-.bottom-right2 :hover {
-display: flex; 
-color:darkgoldenrod; 
-
-
-}
-#item {
-  display: flow-root;
-  color: white;
-  background-color: transparent;
-}
-
 .cc2.h2 {
   display: flex;
 }
@@ -221,27 +300,34 @@ color:darkgoldenrod;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
   font-size: 200%;
   margin: 35px 0;
   width: 30px 0;
-  background-color: darkslategray;
-  color: white;
+  background-color: rgb(28, 51, 51);
+  color:azure;
   text-decoration: none;
 }
 .cc3 h2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
-    margin: 2%;
-    margin-right: 2%;
-    background-color: darkslategray;
-    font-size: 250%;
-  }
-  
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  flex-wrap: wrap;
+  background-color: rgb(28, 51, 51);
+  font-size: 250%;
+  text-decoration: underline;
+}
+aside {
+  font-size: large;
+  color: rgb(92, 253, 253);
+}
 
 footer {
   color: black;
-  font-family:Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  font-family: "Times New Roman", Times, serif;
   font-size: x-large;
   text-align: center;
+  text-decoration: underline;
 }
