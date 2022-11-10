@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this project is to make a very professional porfolio with all the projects that I've done to showcase my skills as a Web/Software/App Developer
+This is my Portfolio. It showcases some of the projects that I've done since starting my coding journey. All the projects that I've done showcase my skills as a Web/Software/App Developer utilizing HTML, Advanced CSS, JavaScript, Node.js, Express-Handlebars, MySQL, JQuery, API's, React, NoSQL, Object-Oriented Programming (OOP), Progressive Web Applications (PWA), Object-Relational Mapping (ORM), Model-View-Controller (MVC), MERN. Additional projects are on my Repositories folder in [GitHub](https://www.github.com/andresilva8624). Enjoy! 😀
 
 
 - [Installation](#installation)
@@ -24,7 +24,7 @@ Clone the repository to your local machine and open the index.html file in your 
 
 ## Credits
 
-Thank you to [Sabrina Hanson](https://www.github.com/sabhanson) for helping me with this assignment
+Thank you to [Sabrina Hanson](https://www.github.com/sabhanson), our instructos Diarmuid and all the TA's for helping me with this assignment.
 
 ## License
 
@@ -52,6 +52,7 @@ SOFTWARE.
 
 
 ## Contact
+
 To contact me use one of the links below
 
 
