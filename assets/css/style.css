@@ -5,7 +5,7 @@
 /* brand color palette */
 :root {
   --primary: rgb(32, 35, 44);
-  --secondary: darkcyan;
+  --secondary: rgb(9, 224, 224);
   --tertiary: rgb(32, 35, 44);
   --dark: rgb(16, 16, 17);
   --light: rgb(218, 214, 214);
@@ -141,7 +141,7 @@ text-decoration: underline;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-  color:darkcyan;
+  color:rgb(9, 224, 224);
 
 
 }
